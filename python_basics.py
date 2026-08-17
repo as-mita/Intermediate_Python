@@ -19,9 +19,8 @@ print(type(age))
 print(type(height))
 print(type(is_learning))
 
-# ============================================================
 # 2. TYPE CONVERSION
-# ============================================================
+
 
 number_as_string = "100"
 
@@ -34,9 +33,9 @@ print(decimal_number)
 print(str(number))
 
 
-# ============================================================
+
 # 3. STRINGS
-# ============================================================
+
 
 message = "Python is powerful"
 
@@ -55,3 +54,53 @@ language = "Python"
 level = "beginner"
 
 print(f"I am learning {language} at a {level} level.")
+
+# Operator
+a = 15
+b = 4
+
+print("\nArithmetic Operators:")
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor division:", a // b)
+print("Modulus:", a % b)
+print("Power:", a ** b)
+
+print("\nComparison Operators:")
+print(a > b)
+print(a < b)
+print(a == b)
+print(a != b)
+print(a >= b)
+print(a <= b)
+
+# Conditional Statements
+
+score = 78
+
+print("\nConditional Statement:")
+
+if score >= 80:
+    print("Grade: A")
+elif score >= 70:
+    print("Grade: B")
+elif score >= 60:
+    print("Grade: C")
+else:
+    print("Needs improvement")
+
+
+# Nested condition
+
+age = 23
+has_id = True
+
+if age >= 18:
+    if has_id:
+        print("Access allowed.")
+    else:
+        print("ID required.")
+else:
+    print("Access denied.")
