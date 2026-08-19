@@ -104,3 +104,61 @@ if age >= 18:
         print("ID required.")
 else:
     print("Access denied.")
+
+# LISTS
+
+fruits = ["apple", "banana", "mango", "orange"]
+
+print("\nLists:")
+print(fruits)
+print(fruits[0])
+print(fruits[-1])
+
+fruits.append("grape")
+fruits.insert(1, "kiwi")
+fruits.remove("banana")
+
+print("Updated list:", fruits)
+
+# List slicing
+print("First two:", fruits[:2])
+print("Last two:", fruits[-2:])
+
+
+# Tuples
+coordinates = (27.7, 85.3)
+
+print("\nTuple:")
+print(coordinates)
+print("Latitude:", coordinates[0])
+print("Longitude:", coordinates[1])
+
+
+# Sets
+numbers = {1, 2, 3, 3, 4, 5}
+
+print("\nSet:")
+print(numbers)
+
+numbers.add(6)
+numbers.remove(2)
+
+print("Updated set:", numbers)
+
+# Dictionaries
+student = {
+    "name": "Asmita",
+    "age": 23,
+    "course": "Data Science"
+}
+
+print("\nDictionary:")
+print(student)
+
+print("Name:", student["name"])
+print("Course:", student["course"])
+
+student["level"] = "Beginner"
+
+print("Updated dictionary:", student)
+
