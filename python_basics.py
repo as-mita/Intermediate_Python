@@ -161,4 +161,10 @@ print("Course:", student["course"])
 student["level"] = "Beginner"
 
 print("Updated dictionary:", student)
+ 
+# For loop
+print("\nFor Loop:")
 
+for fruit in fruits:
+    print(fruit)
+    
