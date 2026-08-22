@@ -167,4 +167,34 @@ print("\nFor Loop:")
 
 for fruit in fruits:
     print(fruit)
-    
+
+# Range
+
+print("\nRange:")
+
+for number in range(1, 6):
+    print(number)
+
+
+print("Even numbers:")
+
+for number in range(2, 11, 2):
+    print(number)
+
+# Functions
+def greet(person):
+    return f"Hello, {person}!"
+
+
+print("\nFunctions:")
+print(greet("Asmita"))
+
+
+def calculate_area(length, width):
+    return length * width
+
+
+area = calculate_area(10, 5)
+
+print("Area:", area)
+
